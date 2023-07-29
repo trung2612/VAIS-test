@@ -1,0 +1,93 @@
+.container {
+    max-width: 1920px;
+    margin: auto;
+}
+
+.books {
+    padding: 40px;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading .title {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.heading .breadcrumb {
+    display: flex;
+}
+
+.table-wrapper {
+    margin-top: 16px;
+}
+
+.table-wrapper table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-wrapper table thead tr {
+    background: #E5E7EB;
+    color: #4B5563;
+}
+
+.table-wrapper table thead th {
+    text-align: left;
+    padding: 8px 16px;
+}
+
+.table-wrapper table thead tr td {
+    border-bottom: 1px solid #E5E7EB;
+}
+
+.table-wrapper table tbody td {
+    /* white-space: nowrap; */
+    text-overflow: ellipsis;
+    border-bottom: 1px solid #E5E7EB;
+    padding: 8px 16px;
+}
+
+.table-wrapper table tbody td.id {
+    width: 140px;
+    min-width: 140px;
+}
+
+.table-wrapper table tbody td.year_publish {
+    width: 200px;
+    min-width: 200px;
+}
+
+.table-wrapper table tbody td.review_count {
+    width: 150px;
+    min-width: 150px;
+}
+
+.table-wrapper table tbody td.number_of_pages {
+    width: 100px;
+    min-width: 100px;
+}
+
+.table-wrapper table tbody td.average_rating {
+    width: 170px;
+    min-width: 170px;
+}
+
+.table-wrapper table tbody td.delete {
+    width: 100px;
+    min-width: 100px;
+}
+
+.books footer{
+    display: flex;
+    justify-content: end;
+}
+
+.books .search-input{
+    padding: 8px 16px;
+    border: none;
+    background: #F3F4F6;
+}
